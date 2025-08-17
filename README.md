@@ -37,17 +37,6 @@ It supports the **basic arithmetic operations** (`+`, `-`, `*`, `/`), displays r
 
 ---
 
-## 📂 Project Structure
-
-Arduino-Calculator/
-
-│── Calculator.ino # Main Arduino code
-
-│── README.md # Documentation
-
-
----
-
 ## ▶️ How to Use
 1. Connect all components according to the wiring table above.  
 2. Open the project in **Arduino IDE**.  
@@ -100,4 +89,5 @@ LCD: Error: Div/0
 ## 📜 License
 This project is open-source and available under the **MIT License**.  
 Feel free to modify and improve it for your own projects!
+
 
