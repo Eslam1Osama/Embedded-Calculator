@@ -38,8 +38,11 @@ It supports the **basic arithmetic operations** (`+`, `-`, `*`, `/`), displays r
 ---
 
 ## 📂 Project Structure
+
 Arduino-Calculator/
+
 │── Calculator.ino # Main Arduino code
+
 │── README.md # Documentation
 
 
@@ -97,3 +100,4 @@ LCD: Error: Div/0
 ## 📜 License
 This project is open-source and available under the **MIT License**.  
 Feel free to modify and improve it for your own projects!
+
