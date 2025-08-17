@@ -38,3 +38,62 @@ It supports the **basic arithmetic operations** (`+`, `-`, `*`, `/`), displays r
 ---
 
 ## 📂 Project Structure
+Arduino-Calculator/
+│── Calculator.ino # Main Arduino code
+│── README.md # Documentation
+
+
+---
+
+## ▶️ How to Use
+1. Connect all components according to the wiring table above.  
+2. Open the project in **Arduino IDE**.  
+3. Install the required libraries (see below).  
+4. Upload the code to your Arduino.  
+5. Use the **keypad** to enter numbers and operators:  
+   - `0–9` → digits  
+   - `+ - * /` → operators  
+   - `=` → compute result  
+   - `C` → clear/reset calculator  
+
+---
+
+## 📦 Required Libraries
+Make sure the following libraries are installed in Arduino IDE:  
+- [LiquidCrystal_I2C](https://github.com/johnrickman/LiquidCrystal_I2C)  
+- [Keypad](https://playground.arduino.cc/code/keypad/)  
+
+---
+
+## 🧮 Features
+- ✅ Multi-digit number input  
+- ✅ Decimal results (e.g., `5 / 2 = 2.5`)  
+- ✅ Division by zero protection (`Error: Div/0`)  
+- ✅ Clear/reset with `C`  
+- ✅ Supports continuous chained operations  
+
+---
+
+## ⚠️ Edge Cases Handled
+- Prevents **division by zero**  
+- Ignores multiple operators pressed in sequence  
+- Input buffer protected (no memory overflow)  
+- Operator ignored if pressed before entering a number  
+
+---
+
+## 📸 Example Output
+
+
+Input: 12 + 8 =
+LCD: 20
+
+Input: 5 / 0 =
+LCD: Error: Div/0
+
+
+---
+
+## 📜 License
+This project is open-source and available under the **MIT License**.  
+Feel free to modify and improve it for your own projects!
